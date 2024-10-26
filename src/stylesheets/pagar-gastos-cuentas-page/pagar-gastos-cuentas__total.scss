@@ -1,0 +1,29 @@
+.total-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 2%;
+    margin-bottom: 10%;
+  }
+  
+  .pagar-todo-button {
+    background-color: #2783bc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    transition: background-color 0.3s;
+    margin: 2em;
+  }
+  
+  .pagar-todo-button:hover {
+    background-color: #07649e;
+  }
+  

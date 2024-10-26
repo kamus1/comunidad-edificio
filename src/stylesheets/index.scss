@@ -4,6 +4,12 @@
 @import './nav-bar/index.scss';
 @import './lightbulb-page/index.scss';
 
+//imports de los estulos scss de los componentes
+@import './home-page/index.scss';
+@import './ver-noticias-page/index.scss';
+@import './pagar-gastos-cuentas-page/index.scss';
+
+
 html, body {
   padding: 0;
   margin: 0;

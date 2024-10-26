@@ -1,0 +1,19 @@
+.pagar-gastos-cuentas-page {
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+  
+  .cuentas-container {
+    
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .cuentas-container > span{
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  .cuentas-container > div >span{
+    width: 250px; /* with nombre gasto -- precio */
+  }
