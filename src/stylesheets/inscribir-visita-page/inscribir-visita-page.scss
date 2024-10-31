@@ -1,0 +1,33 @@
+.registro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10vh;
+  text-align: center;
+  height: 100vh;
+}
+
+.input-visit {
+  margin-top: 15px;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  font-size: 16px;
+}
+
+.register-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.register-button:hover {
+  background-color: #45a049;
+}
+
