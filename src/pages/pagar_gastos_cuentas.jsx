@@ -1,6 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faMoneyBillWave, faNewspaper, faCalendarAlt, faIdBadge } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 
 export const PagarGastosCuentas = () => {
@@ -32,7 +30,7 @@ export const PagarGastosCuentas = () => {
         {cuentas.map((cuenta) => (
           <div key={cuenta.id} className="cuenta-item">
             <span>{cuenta.nombre}: {cuenta.monto}</span>
-            <button onClick={() => handleNavigation('/metodo_pago')} className="home-button" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100px' }}>
+            <button onClick={() => handleNavigation('/metodo-pago')} className="home-button" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100px' }}>
               Pagar
             </button>
           </div>
@@ -46,7 +44,9 @@ export const PagarGastosCuentas = () => {
         </div>
 
         <div>
-        <button className="pagar-todo-button">Pagar todas las cuentas</button>
+        <button onClick={() => handleNavigation('/metodo-pago')} className="home-button" style={{ display: 'flex', justifyContent: 'center', width: '200px', height: '100px'}}>
+          Pagar todas las cuentas
+        </button>
         </div>
       </div>
       </div>

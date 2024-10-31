@@ -8,6 +8,8 @@ import PagarGastosCuentas from '../pages/pagar_gastos_cuentas'
 import VerNoticias from '../pages/ver_noticias_page'
 import RealizarReservas from '../pages/realizar_reservas'
 import InscribirVisitas from '../pages/inscribir_visitas'
+import MetodoPago from '../pages/metodo_pago'
+import PagoExitoso from '../pages/pago_exitoso'
 
 
 import NavBar from '../components/nav_bar'
@@ -29,6 +31,8 @@ const Layout = () => {
             <Route path='/ver-noticias' element={<VerNoticias />} />
             <Route path='/realizar-reservas' element={<RealizarReservas />} />
             <Route path='/inscribir-visitas' element={<InscribirVisitas />} />
+            <Route path='/metodo-pago' element={<MetodoPago />} />
+            <Route path='/pago-exitoso' element={<PagoExitoso />} />
 
           </Routes>
         </div>
