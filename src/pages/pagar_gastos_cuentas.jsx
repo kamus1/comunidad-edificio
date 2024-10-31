@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faMoneyBillWave, faNewspaper, faCalendarAlt, faIdBadge } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 export const PagarGastosCuentas = () => {
   //datos de ejemplo para las cuentas
@@ -9,6 +12,13 @@ export const PagarGastosCuentas = () => {
     { id: 4, nombre: "Gasto común", monto: "50.000 CLP" },
   ];
 
+  const navigate = useNavigate();
+
+  // Función para manejar la navegación al hacer clic en los botones
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
+  
   //total calculado
   const total = "104.000 CLP";
 
@@ -22,7 +32,9 @@ export const PagarGastosCuentas = () => {
         {cuentas.map((cuenta) => (
           <div key={cuenta.id} className="cuenta-item">
             <span>{cuenta.nombre}: {cuenta.monto}</span>
-            <button className="pagar-button">Pagar</button>
+            <button onClick={() => handleNavigation('/metodo_pago')} className="home-button" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100px' }}>
+              Pagar
+            </button>
           </div>
         ))}
       </div>

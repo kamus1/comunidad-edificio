@@ -1,0 +1,26 @@
+.cuenta-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+  }
+  
+  .pagar-button {
+    background-color: #2783bc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    transition: background-color 0.2s;
+    margin-left: 20px;
+  }
+  
+  .pagar-button:hover {
+    background-color: #07649e;
+  }
+  
