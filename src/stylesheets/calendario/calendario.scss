@@ -1,0 +1,16 @@
+.calendario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .react-calendar {
+    width: 50%; 
+    background-color: #457B9D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
