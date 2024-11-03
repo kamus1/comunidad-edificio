@@ -1,6 +1,9 @@
 .realizar-reserva {
   display: flex;
-  gap: 1.2em;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+  gap: 2em; 
 }
 
 .column {
@@ -8,4 +11,21 @@
   flex-direction: column;
   gap: 1.2em;
   align-items: center;
+}
+
+.column-calendar {
+  justify-content: center;
+  flex: 1; 
+}
+
+.column-calendar-inner{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  align-items: center;
+}
+
+.home-button.selected {
+  background-color: #4f77fb; 
+  color: white;
 }

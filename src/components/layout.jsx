@@ -11,7 +11,7 @@ import InscribirVisitas from '../pages/inscribir_visitas'
 import MetodoPago from '../pages/metodo_pago'
 import PagoExitoso from '../pages/pago_exitoso'
 import InscripcionExitosa from '../pages/inscripcion_exitosa'
-
+import ReservaExitosa from '../pages/reserva_exitosa'
 
 import NavBar from '../components/nav_bar'
 
@@ -34,6 +34,7 @@ const Layout = () => {
             <Route path='/inscribir-visitas' element={<InscribirVisitas />} />
             <Route path='/metodo-pago' element={<MetodoPago />} />
             <Route path='/pago-exitoso' element={<PagoExitoso />} />
+            <Route path='/reserva-exitosa' element={<ReservaExitosa />} />
             <Route path='/inscripcion-exitosa' element={<InscripcionExitosa />} />
 
           </Routes>
