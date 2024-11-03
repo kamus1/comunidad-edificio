@@ -2,15 +2,55 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  
   .react-calendar {
-    width: 50%; 
+    width: 50%;
     background-color: #457B9D;
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 1em;
-    font-size: 1em;
+    padding: 0.4em; 
+    font-size: 0.9em; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
+
+  input[type="time"] {
+    margin-left: 10px;
+    margin-top: 1em;
+    padding: 0.3em;
+    border: 2px solid #457B9D;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 1em;
+    width: 150px;
+    text-align: center;
+    transition: border-color 0.3s;
+
+    &:focus {
+      border-color: #5ca6d3;
+      outline: none;
+    }
+  }
+  
+  button {
+    margin-top: 1em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #5ca6d3;
+    }
+  }
+}
+
+
+.home-button-accept{
+  background-color: #4caf50;
+  width: 50%;
 }
