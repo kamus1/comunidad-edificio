@@ -1,4 +1,4 @@
-# frontend-sample-app
+# Proyecto Comunidad Edificio
 
 Basic Frontend Development Environment to start an app with Webpack
 
@@ -16,6 +16,7 @@ Install dependences
 ```
 npm install
 npm install react-calendar
+npm install react-icons
 ```
 
 Launch environment
