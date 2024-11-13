@@ -6,7 +6,8 @@ module.exports = (_, argv) => ({
   entry: './src/index.js',
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: '/comunidad-edificio/'
+    publicPath: '/' //local
+    //publicPath: '/comunidad-edificio/' //github
   },
   plugins: [
     new MiniCssExtractPlugin({

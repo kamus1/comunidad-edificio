@@ -41,3 +41,8 @@ Now you can open http://localhost:5050
 ### About stylesheets
 
 - Sample stylesheets were written using the [BEM](https://getbem.com/) structure
+
+
+#### Deploy de los cambios
+npm run build
+npm run deploy
