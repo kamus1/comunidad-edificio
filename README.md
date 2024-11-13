@@ -1,6 +1,12 @@
-# frontend-sample-app
+# Proyecto Comunidad Edificio
+### Integrantes
 
-Basic Frontend Development Environment to start an app with Webpack
+Benjamin Camus 202173072-9 
+
+Ignacio Muñoz 202173096-6 
+
+Rodrigo Alarcón 201873104-8 
+
 
 This repo includes `Webpack` to start an environment to build frontend views using `React`.
 
@@ -16,6 +22,7 @@ Install dependences
 ```
 npm install
 npm install react-calendar
+npm install react-icons
 ```
 
 Launch environment
