@@ -1,17 +1,21 @@
 {
+  "homepage": "https://kamus1.github.io/comunidad-edificio",
   "name": "frontend-sample-app",
   "version": "0.1.0",
   "description": "Basic Frontend Development Environment to start an app with Webpack",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexarenasf/frontend-sample-app"
+    "url": "https://kamus1.github.io/comunidad-edificio"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "prod": "webpack --mode=production",
-    "dev": "webpack serve --mode=development"
+    "dev": "webpack serve --mode=development",
+    "build": "webpack"
   },
-  "author": "alexarenasf",
+  "author": "kamus1",
   "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.10.5",
